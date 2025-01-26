@@ -241,66 +241,71 @@
         </button>
     </div>
 
-    <footer class="h-[900px] border-t border-opacity-50 flex items-center justify-center p-2 bg-[#FBFBFB]">
-        <div class="h-[800px] border w-[64%]">
-            <div class="h-[360px]  flex gap-3 border">
-                <div class="w-[25%] h-full flex flex-col gap-4 items-start justify-start">
-                    <img class="w-[180px]" src="/logo/logo.svg" alt="">
-                    <div>
-                        <p class="text-[14px] text-zinc-500">© 2010 - 2025, Zerodha Broking Ltd.</p>
-                        <p class="text-[14px] text-zinc-500">All rights reserved.</p>
-                    </div>
-
-                    <div class="flex gap-6 pb-4 w-[90%] border-b border-opacity-50 px-1">
-                        <img src="/logo/x-twitter.svg" alt="">
-                        <i class="fa fa-facebook-f text-[25px] text-zinc-500"></i>
-                        <i class="fa fa-instagram text-[25px] text-zinc-500"></i>
-                        <i class="fa fa-linkedin-square text-[25px] text-zinc-500"></i>
-                    </div>
-                    <div class="flex gap-4 px-1 items-center">
-                        <img class="w-[30px]" src="/logo/youtube.svg" alt="">
-                        <img class="w-[23px]" src="/logo/whatsapp-logo.svg" alt="">
-                        <i class="fa fa-telegram text-[23px] text-zinc-500"></i>
-                    </div>
+    <footer class="h-[900px] border-t border-opacity-50 flex items-center justify-center md:p-2 p-0 bg-[#FBFBFB]">
+        <div class="h-[800px] border md:w-[64%] w-[90%]">
+            <div class="h-auto md:h-[360px] w-full flex flex-col md:flex-row gap-6 border p-4">
+                <!-- Section 1: Logo and Social Media -->
+                <div class="md:w-[25%] w-full h-full flex flex-col gap-4 items-start justify-start">
+                  <img class="w-[120px] md:w-[180px]" src="/logo/logo.svg" alt="Logo">
+                  <div>
+                    <p class="text-[12px] md:text-[14px] text-zinc-500">© 2010 - 2025, Zerodha Broking Ltd.</p>
+                    <p class="text-[12px] md:text-[14px] text-zinc-500">All rights reserved.</p>
+                  </div>
+                  <div class="flex gap-4 md:gap-6 pb-4 w-full border-b border-opacity-50 px-1">
+                    <img src="/logo/x-twitter.svg" alt="Twitter">
+                    <i class="fa fa-facebook-f text-[20px] md:text-[25px] text-zinc-500"></i>
+                    <i class="fa fa-instagram text-[20px] md:text-[25px] text-zinc-500"></i>
+                    <i class="fa fa-linkedin-square text-[20px] md:text-[25px] text-zinc-500"></i>
+                  </div>
+                  <div class="flex gap-3 md:gap-4 px-1 items-center">
+                    <img class="w-[25px] md:w-[30px]" src="/logo/youtube.svg" alt="YouTube">
+                    <img class="w-[20px] md:w-[23px]" src="/logo/whatsapp-logo.svg" alt="WhatsApp">
+                    <i class="fa fa-telegram text-[20px] md:text-[23px] text-zinc-500"></i>
+                  </div>
                 </div>
-
-                <div class="w-[25%] h-full  flex flex-col gap-4">
-                    <h1 class="text-[20px] text-zinc-800 font-medium">Company</h1>
-                    <div class="flex flex-col gap-2 text-[16px] text-zinc-500 font-medium">
-                        <p>About</p>
-                        <p>Products</p>
-                        <p>Pricing</p>
-                        <p>Referral programme</p>
-                        <p>Careers</p>
-                        <p>Zerodha.tech</p>
-                        <p>Open source</p>
-                        <p>Press & media</p>
-                        <p>Zerodha Cares (CSR)</p>
-                    </div>
+              
+                <!-- Section 2: Company -->
+                <div class="md:w-[25%] w-full h-full flex flex-col gap-4">
+                  <h1 class="text-[18px] md:text-[20px] text-zinc-800 font-medium">Company</h1>
+                  <div class="flex flex-col gap-2 text-[14px] md:text-[16px] text-zinc-500 font-medium">
+                    <p>About</p>
+                    <p>Products</p>
+                    <p>Pricing</p>
+                    <p>Referral programme</p>
+                    <p>Careers</p>
+                    <p>Zerodha.tech</p>
+                    <p>Open source</p>
+                    <p>Press & media</p>
+                    <p>Zerodha Cares (CSR)</p>
+                  </div>
                 </div>
-                <div class="w-[25%] h-full  flex flex-col gap-4">
-                    <h1 class="text-[20px] text-zinc-800 font-medium">Support</h1>
-                    <div class="flex flex-col gap-2 text-[16px] text-zinc-500 font-medium">
-                        <p>Contact us</p>
-                        <p>Support portal</p>
-                        <p>Z-Connect blog</p>
-                        <p>List of charges</p>
-                        <p>Downloads & resources</p>
-                        <p>Videos</p>
-                        <p>Market overview</p>
-                        <p>How to file a complaint?</p>
-                        <p>Status of your complaints</p>
-                    </div>
+              
+                <!-- Section 3: Support -->
+                <div class="md:w-[25%] w-full h-full flex flex-col gap-4">
+                  <h1 class="text-[18px] md:text-[20px] text-zinc-800 font-medium">Support</h1>
+                  <div class="flex flex-col gap-2 text-[14px] md:text-[16px] text-zinc-500 font-medium">
+                    <p>Contact us</p>
+                    <p>Support portal</p>
+                    <p>Z-Connect blog</p>
+                    <p>List of charges</p>
+                    <p>Downloads & resources</p>
+                    <p>Videos</p>
+                    <p>Market overview</p>
+                    <p>How to file a complaint?</p>
+                    <p>Status of your complaints</p>
+                  </div>
                 </div>
-                <div class="w-[25%] h-full flex flex-col gap-4">
-                    <h1 class="text-[20px] text-zinc-800 font-medium">Account</h1>
-                    <div class="flex flex-col gap-2 text-[16px] text-zinc-500 font-medium">
-                        <p>Open an account</p>
-                        <p>Fund transfer</p>
-                    </div>
+              
+                <!-- Section 4: Account -->
+                <div class="md:w-[25%] w-full h-full flex flex-col gap-4">
+                  <h1 class="text-[18px] md:text-[20px] text-zinc-800 font-medium">Account</h1>
+                  <div class="flex flex-col gap-2 text-[14px] md:text-[16px] text-zinc-500 font-medium">
+                    <p>Open an account</p>
+                    <p>Fund transfer</p>
+                  </div>
                 </div>
-
-            </div>
+              </div>
+              
             <div>
 
             </div>
